@@ -1,0 +1,26 @@
+{
+  "generated_at": "2025-07-18T02:49:30.228246",
+  "visualizations": [
+    "workflow_diagram.png - Shows the complete workflow",
+    "agent_network.png - Shows agent interactions",
+    "execution_timeline.png - Shows execution timeline"
+  ],
+  "crew_info": {
+    "agents": [
+      "Researcher",
+      "Blog Writer",
+      "Proofreader"
+    ],
+    "tasks": [
+      "Research Task",
+      "Write Blog Task",
+      "Proofread Task"
+    ],
+    "retry_config": {
+      "research_task": 2,
+      "write_blog_task": 3,
+      "proofread_task": 2,
+      "crew_retries": 2
+    }
+  }
+}
